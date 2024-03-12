@@ -1,0 +1,23 @@
+const size_t DefaultTaskStackSize = 4096;
+const size_t LogTaskStackSize = DefaultTaskStackSize;
+
+const char *const BannerTargetName = "ARM ZYBO Z7";
+const char *const BannerCopyrightNotice ="";
+
+import( <target_class.cdl> );
+import("tPutLogZyboZ7.cdl");
+import("tSIOPortZyboZ7.cdl");
+
+
+region rProcessor1Migratable {
+    cell tSIOPortZyboZ7 SIOPortTarget1 {
+
+    };
+
+
+    cell tPutLogZyboZ7 PutLogTarget {
+        /* SIOドライバとの結合 */
+        cSIOPort = SIOPortTarget1.eSIOPort;
+    };
+};
+

@@ -1,0 +1,6 @@
+01:00:03 **** Build of configuration Default for project exc08 ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:00:04 Build Finished (took 652ms)
+

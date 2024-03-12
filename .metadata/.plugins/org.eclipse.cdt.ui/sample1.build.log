@@ -1,0 +1,6 @@
+01:00:03 **** Incremental Build of configuration Default for project sample1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:00:03 Build Finished (took 434ms)
+

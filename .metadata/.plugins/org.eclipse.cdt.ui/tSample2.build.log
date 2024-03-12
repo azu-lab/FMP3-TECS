@@ -1,0 +1,16 @@
+00:58:19 **** Build of configuration Default for project tSample2 ****
+make all 
+make[1]: Entering directory 'D:/fmp3_zybo_z7_gcc+tecs/target/zybo_z7_gcc/xilinx_sdk/tSample2'
+make[1]: 'kernel_cfg.h' is up to date.
+make[1]: 'offset.h' is up to date.
+ruby ../../../../cfg/cfg.rb --pass 3 --kernel fmp -O -I. -I../../../../include  -I../../../../target/zybo_z7_gcc -I../../../../arch/arm_gcc/zynq7000 -I../../../../arch/arm_gcc/common -I../../../../arch/gcc -I../../../..  -I../../../../sample  -I./gen  -I../../../../tecs_kernel -I../../../../tecsgen/tecs -I../../../../tecsgen/tecs/rpc -T ../../../../target/zybo_z7_gcc/target_check.trb \
+			--rom-symbol fmp.syms --rom-image fmp.srec
+make[1]: Leaving directory 'D:/fmp3_zybo_z7_gcc+tecs/target/zybo_z7_gcc/xilinx_sdk/tSample2'
+process_begin: CreateProcess(NULL, ruby ../../../../cfg/cfg.rb --pass 3 --kernel fmp -O -I. -I../../../../include -I../../../../target/zybo_z7_gcc -I../../../../arch/arm_gcc/zynq7000 -I../../../../arch/arm_gcc/common -I../../../../arch/gcc -I../../../.. -I../../../../sample -I./gen -I../../../../tecs_kernel -I../../../../tecsgen/tecs -I../../../../tecsgen/tecs/rpc -T ../../../../target/zybo_z7_gcc/target_check.trb --rom-symbol fmp.syms --rom-image fmp.srec, ...) failed.
+make (e=2): 指定されたファイルが見つかりません。
+
+make[1]: *** [Makefile:474: check.timestamp] Error 2
+make: *** [Makefile:241: all] Error 2
+
+00:58:21 Build Finished (took 2s.413ms)
+

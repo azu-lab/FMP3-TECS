@@ -1,0 +1,6 @@
+00:51:18 **** Build of project ca9_0_bsp ****
+make -k all 
+'Finished building libraries'
+
+00:51:20 Build Finished (took 1s.858ms)
+

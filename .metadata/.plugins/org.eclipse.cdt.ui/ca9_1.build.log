@@ -1,0 +1,7 @@
+01:00:03 **** Incremental Build of configuration Default for project ca9_1 ****
+make all 
+cmd.exe /C copy ..\sample1\fmp.elf .
+        1 個のファイルをコピーしました。
+
+01:00:03 Build Finished (took 112ms)
+
