@@ -13,7 +13,6 @@
 #### 開発環境
 1. XSDKインストール
 [XilinxのHP](https://japan.xilinx.com/support/download/index.html/content/xilinx/ja/downloadNav/embedded-design-tools.html)からSDKをインストール。
-
 SDK 2019.1での動作は確認済み。
 
 必要に応じて環境変数を設定してください。
